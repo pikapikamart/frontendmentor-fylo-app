@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Link for the fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Link for the css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+  <div class="cover">
+    <div class="cover__block cover--files-holder">
+      <div class="cover__container cover--logo-base">
+        <img class="logo" src="images/logo.svg" alt="logo of the websites">
+      </div>
+
+      <div class="cover__container">
+        <div class="file">
+          <div class="file__holder">
+            <svg xmlns="http://www.w3.org/2000/svg" width="19.185" height="23.981" viewBox="0 0 19.185 23.981">
+              <path id="icon-document" d="M12.028,0H2.436A2.387,2.387,0,0,0,.049,2.4L.037,21.583a2.387,2.387,0,0,0,2.387,2.4h14.4a2.4,2.4,0,0,0,2.4-2.4V7.194Zm-1.2,8.393V1.8l6.595,6.594H10.83Z" transform="translate(-0.037)" fill="#697ed4"/>
+            </svg>
+          </div>
+
+          <div class="file__holder">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="19.2" viewBox="0 0 24 19.2">
+              <path id="icon-folder" d="M21.6,2.4H12L9.6,0H2.4A2.39,2.39,0,0,0,.012,2.4L0,16.8a2.4,2.4,0,0,0,2.4,2.4H21.6A2.4,2.4,0,0,0,24,16.8V4.8a2.4,2.4,0,0,0-2.4-2.4Z" fill="#697ed4"/>
+            </svg>
+          </div>
+
+          <div class="file__holder">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
+              <path id="icon-upload" d="M19.4,6A7.526,7.526,0,0,0,12,0,7.315,7.315,0,0,0,5.4,4,6.016,6.016,0,0,0,6,16H19a4.951,4.951,0,0,0,5-5A5.09,5.09,0,0,0,19.4,6ZM14,9v4H10V9H7l5-5,5,5Z" fill="#697ed4"/>
+            </svg>            
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+
+    <div class="cover__block cover--size-holder">
+      <div  class="left">
+        185
+        <span>GB LEFT</span>
+      </div>
+      <p class="cover--text-white">You’ve used <span class="gb-bold">815 GB</span>  of your storage</p>
+      <div class="bar"></div>
+      <div class="cover__container cover--flex-between">
+        <p class="cover--text-l-white gb-bold">0 GB</p>
+        <p class="cover--text-l-white gb-bold">1000 GB</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://twitter.com/RaymartPamplona" target="blank">Raymart Pamplona</a>.
+    </div>
+    <!-- Link for the javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
